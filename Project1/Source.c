@@ -71,8 +71,8 @@ int main() {
         }
         turn++;
     }
+    drawBoard();
     if (checkWin()) {
-        drawBoard();
         printf("\nPlayer %d won!\n\n", player);
     }
     else {
